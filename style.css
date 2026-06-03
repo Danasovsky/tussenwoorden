@@ -156,14 +156,14 @@ body {
 .short-dotted-line {
   width: 180px;
   border-top: 2px dotted #111;
-  margin: 5rem auto;
+  margin: 2rem 0 4rem 0;
 }
 
 .divider-short {
   width: 180px;
   height: 1px;
   background: #111;
-  margin: 5rem auto;
+  margin: 2rem auto;
 }
 
 .about-hero {
@@ -210,7 +210,7 @@ body {
   grid-template-columns: 1fr 1.3fr;
   gap: 8rem;
   align-items: start;
-  margin: 6rem 0;
+  margin: 2rem 0 4rem;
 }
 
 .about-lines {
@@ -239,13 +239,14 @@ body {
 }
 
 .about-semicolon {
-  font-size: 18rem;
-  font-weight: 700;
+  font-size: 8rem;
   line-height: 0.8;
   text-align: right;
-  margin-top: -4rem;
-  margin-right: 2rem;
+  margin-top: -1rem;
+  margin-right: 6rem;
+  opacity: 0.9;
 }
+
 
 /* Responsive */
 @media (max-width: 900px) {
@@ -277,9 +278,14 @@ body {
     font-size: 2rem;
   }
 
-  .about-quote {
-    font-size: 2.2rem;
-  }
+.about-quote {
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
+  line-height: 1.7;
+  text-align: center;
+  font-style: italic;
+  max-width: 900px;
+  margin: 3rem auto;
+}
 }
 
 .content-section {
