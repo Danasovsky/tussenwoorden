@@ -895,8 +895,9 @@ body {
   .about-text p,
   .first-time-section .about-text p,
   .platform-content > p {
-    font-size: 1.15rem;
+    font-size: clamp(1.6rem, 2vw, 2.2rem);
     line-height: 1.7;
+    margin: 0 0 3rem;
   }
 
   .about-semicolon {
