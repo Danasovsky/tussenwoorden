@@ -411,6 +411,21 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.upcoming-card li {
+  border-bottom: none;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.upcoming-card li::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #000;
+  margin: 1rem auto 0;
+}
+
 .upcoming-card a {
   color: #000;
   font-weight: 700;
