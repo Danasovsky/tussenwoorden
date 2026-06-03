@@ -159,6 +159,13 @@ body {
   margin: 5rem auto;
 }
 
+.divider-short {
+  width: 180px;
+  height: 1px;
+  background: #111;
+  margin: 5rem auto;
+}
+
 .about-hero {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
