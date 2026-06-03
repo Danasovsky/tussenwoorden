@@ -1026,4 +1026,12 @@ body {
   .main-nav a {
     font-size: 0.9rem;
   }
+
+  .signup-button {
+    position: static;
+    right: auto;
+    bottom: auto;
+    margin-top: 2rem;
+    padding: 20px 36px;
+  }
 }
