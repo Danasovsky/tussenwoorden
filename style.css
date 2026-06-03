@@ -134,6 +134,126 @@ body {
   line-height: 1;
 }
 
+.about-section {
+  background: #fff;
+  color: #000;
+  padding: 120px 7vw;
+}
+
+.about-kicker {
+  font-family: "Cutive Mono", monospace;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.dotted-line {
+  border-top: 3px dotted #000;
+  opacity: 0.85;
+  margin: 42px 0;
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 72px;
+  align-items: center;
+}
+
+.asterisk {
+  font-size: clamp(6rem, 12vw, 12rem);
+  font-weight: 900;
+  line-height: 0.6;
+  margin-bottom: 30px;
+}
+
+.about-hero h2 {
+  font-size: clamp(3.2rem, 7vw, 7.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  margin: 0;
+  max-width: 950px;
+}
+
+.about-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: grayscale(100%);
+}
+
+.about-meta {
+  font-family: "Cutive Mono", monospace;
+  text-align: right;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.about-lines {
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.about-text {
+  max-width: 680px;
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+  line-height: 1.65;
+}
+
+.about-quote {
+  margin: 80px auto;
+  max-width: 1000px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: clamp(2.4rem, 5vw, 5.5rem);
+  line-height: 1.35;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-section {
+    padding: 80px 24px;
+  }
+
+  .about-hero,
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-meta {
+    text-align: left;
+  }
+
+  .about-image {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-hero h2 {
+    font-size: 3rem;
+  }
+
+  .about-lines {
+    font-size: 2rem;
+  }
+
+  .about-quote {
+    font-size: 2.2rem;
+  }
+}
+
 .content-section {
   padding: 120px 44px;
   max-width: 900px;
