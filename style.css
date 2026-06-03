@@ -928,3 +928,43 @@ body {
   }
 }
 
+@media screen and (max-width: 760px) {
+
+  .site-header {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .about-hero,
+  .about-grid,
+  .platform-grid,
+  .contact-container,
+  .footer-container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  .about-semicolon,
+  .big-smile {
+    position: static !important;
+    margin: 1rem 0;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
