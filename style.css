@@ -631,18 +631,12 @@ body {
 }
 
 .wave-divider {
-  width: 140px;
-  height: 12px;
-  margin: 0 auto 5rem;
-  background-image: repeating-radial-gradient(
-    circle at 50% 100%,
-    transparent 0,
-    transparent 8px,
-    #111 8px,
-    #111 10px
-  );
-  background-size: 28px 12px;
-  background-repeat: repeat-x;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  color: #111;
+  opacity: 0.7;
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 900px) {
