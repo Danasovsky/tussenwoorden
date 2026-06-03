@@ -992,19 +992,24 @@ body {
 @media (max-width: 760px) {
   .hero {
     min-height: 100vh;
-    padding-top: 120px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
   }
 
   .hero-logo {
-    width: 62vw;
+    width: 70vw;
     max-width: 400px;
     animation: softBounce 4s ease-in-out infinite !important;
   }
 
   .signup-button {
     position: static;
+    width: auto
+    margin: 0;
     margin-top: 2rem;
     padding: 22px 42px;
     font-size: 2rem;
