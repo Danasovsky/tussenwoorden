@@ -164,7 +164,7 @@ body {
   width: 180px;
   height: 1px;
   background: #111;
-  margin: 2rem auto;
+  margin: 0rem auto;
 }
 
 .about-hero {
@@ -234,15 +234,16 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
   font-size: clamp(2rem, 2.5vw, 3rem);
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
+  margin: 2rem auto;
 }
 
 .about-semicolon {
   font-size: 8rem;
   line-height: 0.8;
   text-align: right;
-  margin-top: -1rem;
+  margin-top: -5rem;
   margin-right: 2rem;
   opacity: 0.9;
 }
