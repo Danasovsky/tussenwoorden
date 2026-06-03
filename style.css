@@ -632,10 +632,9 @@ body {
 
 .wave-divider {
   text-align: center;
-  font-size: 3rem;
+  font-size: 7rem;
   line-height: 1;
-  color: #111;
-  opacity: 0.7;
+  color: black;
   margin-bottom: 4rem;
 }
 
