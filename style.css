@@ -563,8 +563,8 @@ body {
 
 /* Digitaal platform */
 .platform-section {
-  background: #000;
-  color: #fff;
+  background: white;
+  color: black;
   padding: 120px 7vw;
 }
 
@@ -579,7 +579,7 @@ body {
   font-family: "Cutive Mono", monospace;
   font-size: 0.9rem;
   letter-spacing: 0.22em;
-  color: #777;
+  color: black;
   text-transform: lowercase;
   margin: 0 0 2rem;
 }
@@ -589,7 +589,7 @@ body {
   line-height: 0.95;
   letter-spacing: -0.04em;
   margin: 0;
-  color: #fff;
+  color: black;
 }
 
 .platform-content {
@@ -599,7 +599,7 @@ body {
 .platform-content > p {
   font-size: 1.3rem;
   line-height: 1.8;
-  color: #cfcfcf;
+  color: black;
   margin: 0 0 3rem;
 }
 
@@ -619,7 +619,7 @@ body {
 
 .platform-list li {
   font-family: "Cutive Mono", monospace;
-  color: #888;
+  color: black;
   letter-spacing: 0.16em;
   text-transform: lowercase;
   font-size: 0.95rem;
