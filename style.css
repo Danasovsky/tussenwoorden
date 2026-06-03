@@ -738,7 +738,6 @@ body {
 
 .form-group label {
   margin-bottom: 1rem;
-
   font-family: "Cutive Mono", monospace;
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -749,17 +748,11 @@ body {
 .form-group input,
 .form-group textarea {
   width: 100%;
-
   background: rgba(255,255,255,0.85);
-
   border: 1px solid #cfcfcf;
-
   padding: 1.5rem;
-
   font-size: 1.1rem;
-
   font-family: inherit;
-
   transition: border-color .2s ease;
 }
 
@@ -784,6 +777,7 @@ body {
 
 .contact-button:hover {
   background: #000;
+  color: white;
   
 
 @media (max-width: 900px) {
