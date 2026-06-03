@@ -505,7 +505,7 @@ body {
   font-family: "Cutive Mono", monospace;
   font-size: 0.9rem;
   letter-spacing: 0.22em;
-  color: #999;
+  color: black;
   text-transform: lowercase;
   margin-bottom: 2rem;
 }
@@ -518,13 +518,13 @@ body {
   font-size: 7rem;
   line-height: 1;
   font-weight: 700;
-  color: rgba(0,0,0,0.07);
+  color: black;
 }
 
 .first-time-section .about-text p {
   font-size: 1.3rem;
   line-height: 1.8;
-  color: #555;
+  color: black;
   text-align: left;
 }
 
