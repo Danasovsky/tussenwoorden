@@ -475,81 +475,72 @@ body {
 /* Nieuwe secties */
 .first-time-section {
   background: #fff;
-  color: #000;
-  padding: 120px 7vw;
+  padding: 140px 7vw;
 }
 
-.first-time-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 8rem;
-  align-items: center;
+.first-time-title {
+  position: relative;
+}
+
+.first-time-title h2 {
+  font-family: "Cutive Mono", monospace;
+  font-size: clamp(3rem, 4vw, 5rem);
+  line-height: 1.18;
+  font-weight: 400;
+  margin: 0;
+  color: #000;
 }
 
 .type-label {
   font-family: "Cutive Mono", monospace;
   font-size: 0.9rem;
   letter-spacing: 0.22em;
+  color: #999;
   text-transform: lowercase;
-  color: black;
   margin-bottom: 2rem;
 }
 
-.first-time-title h2 {
-  font-family: "Cutive Mono", monospace;
-  font-size: clamp(2.6rem, 3.6vw, 4.6rem);
-  line-height: 1.15;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  margin: 0;
-  color: #000;
+.big-smile {
+  position: absolute;
+  right: 2rem;
+  bottom: -6rem;
+
+  font-size: 9rem;
+  line-height: 1;
+  font-weight: 700;
+
+  color: rgba(0,0,0,0.08);
 }
 
-.first-time-content {
-  max-width: 760px;
-}
-
-.first-time-content p {
-  font-size: clamp(1.25rem, 1.7vw, 1.75rem);
-  line-height: 1.65;
-  color: #555;
-  margin: 0 0 2rem;
-}
-
-.black-button,
-.disabled-button {
+.faq-button {
   display: inline-block;
-  background: transparent;
-  color: #000;
+
+  margin-top: 2rem;
+
+  padding: 1.1rem 2rem;
+
   border: 1.5px solid #000;
+  background: transparent;
+
+  color: #000;
   text-decoration: none;
-  padding: 1.2rem 2rem;
-  margin-top: 1rem;
+
   font-family: "Cutive Mono", monospace;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: lowercase;
+
+  transition: all 0.25s ease;
 }
 
-.short-divider {
-  width: 180px;
-  height: 1px;
+.faq-button:hover {
   background: #000;
-  margin-bottom: 4rem;
+  color: #fff;
 }
 
-@media (max-width: 900px) {
-  .first-time-grid {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-
-  .first-time-title h2 {
-    font-size: 2.6rem;
-  }
-
-  .first-time-content p {
-    font-size: 1.2rem;
-  }
+.first-time-section .about-text p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #555;
 }
 /* Responsive */
 @media (max-width: 900px) {
