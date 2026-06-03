@@ -666,82 +666,44 @@ body {
 }
 
 
-/*contact*/
+/* contact */
 
 .contact-section {
   min-height: 100vh;
-  padding-top: 92px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 140px 7vw 220px;
   background-color: #fbfaf7;
   background-image:
     linear-gradient(rgba(0,0,0,0.055) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0,0,0,0.055) 1px, transparent 1px);
   background-size: 48px 48px;
-  overflow: hidden;
 }
 
 .contact-container {
-  width: min(1400px, 90%);
+  width: min(1400px, 100%);
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
-}
-
-@media (max-width: 900px) {
-
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 4rem;
-  }
-
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
+  align-items: start;
 }
 
 .contact-info h2 {
   font-size: clamp(4rem, 6vw, 5.5rem);
   line-height: 0.95;
-  margin-bottom: 2rem;
+  margin: 0 0 2rem;
 }
 
 .contact-intro {
   font-size: 1.5rem;
-  color: black;
+  color: #000;
   max-width: 500px;
-  margin-bottom: 4rem;
-}
-
-.contact-links {
-  font-size: 1rem;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.contact-links a {
-  color: black;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: opacity .2s ease;
-}
-
-.contact-links a:hover {
-  opacity: .6;
 }
 
 .section-label {
   font-family: "Cutive Mono", monospace;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: black;
+  color: #000;
   margin-bottom: 2rem;
 }
 
@@ -755,9 +717,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding-bottom: 120px;
 }
-
 
 .form-group {
   display: flex;
@@ -770,7 +730,7 @@ body {
   font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: black;
+  color: #000;
 }
 
 .form-group input,
@@ -780,63 +740,39 @@ body {
   border: 1px solid #cfcfcf;
   padding: 1.5rem;
   font-size: 1.1rem;
-  font-family: inherit;
-  transition: border-color .2s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: black;
+  font-family: Arial, sans-serif;
 }
 
 .contact-button {
-  display: inline-block;
+  width: fit-content;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
   padding: 1.1rem 2rem;
   border: 1.5px solid #000;
   background: transparent;
   color: #000;
-  text-decoration: none;
   font-family: "Cutive Mono", monospace;
   letter-spacing: 0.12em;
   text-transform: lowercase;
+  cursor: pointer;
 }
 
 .contact-button:hover {
   background: #000;
-  color: white;
-  }
-
-@media (max-width: 900px) {
-
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 5rem;
-  }
-
-  .contact-info h2 {
-    font-size: 3.5rem;
-  }
+  color: #fff;
 }
 
 
-
-  /* footer*/
-
+/* footer */
 
 .site-footer {
   background: #000;
-  color: white;
-  padding: 8rem 0;
+  color: #fff;
+  padding: 8rem 7vw;
 }
 
 .footer-container {
-  width: min(1400px, 90%);
+  width: min(1400px, 100%);
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr;
   gap: 6rem;
@@ -844,13 +780,10 @@ body {
 
 .footer-quote {
   grid-column: 1 / -1;
-
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.95;
-  font-weight: 600;
-
+  font-weight: 700;
   max-width: 1000px;
-
   margin-bottom: 2rem;
 }
 
@@ -858,7 +791,7 @@ body {
   font-size: 4rem;
   font-weight: 700;
   line-height: 0.9;
-  color: white;
+  color: #fff;
 }
 
 .footer-logo span {
@@ -868,12 +801,10 @@ body {
 
 .footer-brand p {
   margin-top: 2rem;
-
   font-family: "Cutive Mono", monospace;
   font-size: 0.85rem;
   letter-spacing: 0.2em;
-
-  color: white;
+  color: rgba(255,255,255,0.55);
 }
 
 .footer-nav,
@@ -883,211 +814,42 @@ body {
   gap: 1rem;
 }
 
-.footer-nav a {
-  color: white;
+.footer-nav a,
+.footer-contact a {
+  color: #fff;
   text-decoration: none;
+}
 
+.footer-nav a {
   font-family: "Cutive Mono", monospace;
   letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.7);
 }
 
 .footer-contact a {
-  color: white;
-  text-decoration: none;
   font-size: 1.2rem;
 }
 
+
+/* responsive */
+
 @media (max-width: 900px) {
-
-  .footer-container {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-
-  .footer-quote {
-    font-size: 3rem;
-  }
-}
-
-
-/* Responsive */
-@media (max-width: 900px) {
-  .about-section {
-    padding: 80px 24px;
-  }
-
-  .about-hero,
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .about-meta {
-    text-align: left;
-  }
-
-  .about-image {
-    aspect-ratio: 16 / 10;
-  }
-}
-
-@media (max-width: 520px) {
-  .about-hero h2 {
-    font-size: 3rem;
-  }
-
-  .about-lines {
-    font-size: 2rem;
-  }
-
-.about-quote {
-  font-size: clamp(1.8rem, 2.5vw, 3rem);
-  line-height: 1.7;
-  text-align: center;
-  font-style: italic;
-  max-width: 900px;
-  margin: 3rem auto;
-}
-}
-
-.content-section {
-  padding: 120px 44px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.content-section h2 {
-  font-size: 48px;
-  margin-bottom: 24px;
-}
-
-.content-section p {
-  font-size: 22px;
-  line-height: 1.6;
-}
-
-@keyframes softBounce {
-  0%, 100% {
-    transform: translateY(0) rotate(-1deg);
-  }
-  50% {
-    transform: translateY(-14px) rotate(-1deg);
-  }
-}
-
-/* iPad / tablet */
-@media (max-width: 1024px) {
-  .site-header {
-    gap: 28px;
-    padding: 0 28px;
-  }
-
-  .main-nav {
-    gap: 28px;
-  }
-
-  .hero-logo {
-    width: min(62vw, 620px);
-  }
-
-  .signup-button {
-    right: 6%;
-    bottom: 16%;
-  }
-}
-
-/* gsm */
-@media (max-width: 760px) {
-  .site-header {
-    height: auto;
-    padding: 20px;
-    grid-template-columns: 1fr;
-    gap: 18px;
-    position: absolute;
-  }
-
-  .main-nav {
-    flex-wrap: wrap;
-    gap: 18px;
-  }
-
-  .socials {
-    border-left: none;
-    padding-left: 0;
-  }
-
-  .hero {
-    padding-top: 160px;
-    background-size: 34px 34px;
-  }
-
-  .hero-logo {
-    width: 86vw;
-  }
-
-  .signup-button {
-    position: static;
-    margin-top: 42px;
-    padding: 18px 30px;
-    font-size: 20px;
-  }
-
-  .hero {
-    flex-direction: column;
-  }
-
-  .scroll-down {
-    bottom: 24px;
-    font-size: 42px;
-  }
-}
-
-  @media (max-width: 900px) {
-
   .contact-container,
-  .about-grid,
-  .platform-grid,
   .footer-container {
     grid-template-columns: 1fr;
+    gap: 4rem;
   }
 
-  .contact-form,
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
+  .contact-section {
+    padding: 100px 24px 180px;
   }
 
-  .site-footer {
-    padding: 6rem 0;
+  .contact-info h2 {
+    font-size: 3.5rem;
   }
-
-}
-
-  @media (max-width: 900px) {
 
   .footer-quote {
     font-size: 3rem;
-    margin-bottom: 3rem;
   }
-
 }
 
-  @media (max-width: 760px) {
-
-  .first-time-section {
-  padding-bottom: 60px;
-  }
-
-     .faq-button {
-  margin-bottom: 0;
-  }
-
-      .platform-section {
-padding-top: 20px;
-  }
-
-     .contact-form {
-padding-bottom: 160px;
-  }
-
-}
