@@ -475,36 +475,43 @@ body {
 /* Nieuwe secties */
 
 .no-stage-section {
-  background: #f8f7f4;
-  padding: 8rem 4vw;
+  background: #fff;
+  color: #000;
+  padding: 7rem 7vw;
+  border-top: 1px solid rgba(0,0,0,0.08);
 }
 
 .no-stage-number {
   font-family: "Cutive Mono", monospace;
   color: #999;
-  font-size: 1rem;
-  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  margin-bottom: 3rem;
 }
 
 .no-stage-grid {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
-  gap: 8rem;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 7rem;
   align-items: start;
 }
 
 .no-stage-grid h2 {
-  font-size: clamp(3rem, 5vw, 5.8rem);
+  font-size: clamp(3rem, 4.5vw, 5rem);
   line-height: 0.95;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
   margin: 0;
+  max-width: 700px;
+}
+
+.no-stage-text {
+  max-width: 760px;
 }
 
 .no-stage-text p {
-  font-size: clamp(1.3rem, 2vw, 2rem);
-  line-height: 1.55;
+  font-size: clamp(1.2rem, 1.6vw, 1.55rem);
+  line-height: 1.65;
   color: #555;
-  margin: 0 0 3rem;
+  margin: 0 0 2.5rem;
 }
 
 .black-button {
@@ -513,48 +520,48 @@ body {
   color: #fff;
   text-decoration: none;
   font-family: "Cutive Mono", monospace;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.16em;
   text-transform: lowercase;
-  padding: 1.5rem 2.5rem;
+  padding: 1.3rem 2.3rem;
   transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.black-button:hover {
-  transform: translateY(-3px);
-  opacity: 0.88;
 }
 
 .platform-section {
   background: #000;
   color: #fff;
-  padding: 8rem 6vw;
+  padding: 7rem 7vw;
 }
 
 .platform-grid {
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 8rem;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 7rem;
   align-items: start;
 }
 
 .platform-kicker {
   font-family: "Cutive Mono", monospace;
   color: #777;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.22em;
   text-transform: lowercase;
   margin: 0 0 2rem;
 }
 
 .platform-section h2 {
-  font-size: clamp(3rem, 6vw, 6.5rem);
+  font-size: clamp(3rem, 4.8vw, 5.4rem);
   line-height: 0.95;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
   margin: 0;
+  max-width: 760px;
+}
+
+.platform-content {
+  max-width: 760px;
 }
 
 .platform-content > p {
-  font-size: clamp(1.3rem, 2vw, 2rem);
-  line-height: 1.55;
+  font-size: clamp(1.2rem, 1.6vw, 1.55rem);
+  line-height: 1.65;
   color: #cfcfcf;
   margin: 0 0 3rem;
 }
@@ -562,7 +569,9 @@ body {
 .platform-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  gap: 4rem;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 2rem;
 }
 
 .platform-list ul {
@@ -573,11 +582,11 @@ body {
 
 .platform-list li {
   font-family: "Cutive Mono", monospace;
-  color: #777;
-  letter-spacing: 0.22em;
+  color: #888;
+  letter-spacing: 0.18em;
   text-transform: lowercase;
-  font-size: 1rem;
-  margin-bottom: 1.6rem;
+  font-size: 0.95rem;
+  margin-bottom: 1.4rem;
 }
 
 .platform-list li::before {
@@ -594,7 +603,7 @@ body {
 
   .no-stage-section,
   .platform-section {
-    padding: 6rem 24px;
+    padding: 5rem 24px;
   }
 }
 
