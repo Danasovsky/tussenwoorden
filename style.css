@@ -857,14 +857,6 @@ body {
   opacity: 0.6;
 }
 
-    .footer-quote {
-  font-size: clamp(3rem, 7vw, 6rem);
-  line-height: 0.95;
-  font-weight: 600;
-  margin-bottom: 8rem;
-  color: #fff;
-}
-
 @media (max-width: 900px) {
 
   .footer-container {
@@ -872,6 +864,14 @@ body {
     gap: 4rem;
   }
 
+}
+
+      .footer-quote {
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  font-weight: 600;
+  margin-bottom: 8rem;
+  color: #fff;
 }
 
 
