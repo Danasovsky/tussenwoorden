@@ -472,6 +472,131 @@ body {
 
 }
 
+/* Nieuwe secties */
+
+.no-stage-section {
+  background: #f8f7f4;
+  padding: 8rem 4vw;
+}
+
+.no-stage-number {
+  font-family: "Cutive Mono", monospace;
+  color: #999;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.no-stage-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.no-stage-grid h2 {
+  font-size: clamp(3rem, 5vw, 5.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+
+.no-stage-text p {
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  line-height: 1.55;
+  color: #555;
+  margin: 0 0 3rem;
+}
+
+.black-button {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.18em;
+  text-transform: lowercase;
+  padding: 1.5rem 2.5rem;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.black-button:hover {
+  transform: translateY(-3px);
+  opacity: 0.88;
+}
+
+.platform-section {
+  background: #000;
+  color: #fff;
+  padding: 8rem 6vw;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.platform-kicker {
+  font-family: "Cutive Mono", monospace;
+  color: #777;
+  letter-spacing: 0.25em;
+  text-transform: lowercase;
+  margin: 0 0 2rem;
+}
+
+.platform-section h2 {
+  font-size: clamp(3rem, 6vw, 6.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+
+.platform-content > p {
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  line-height: 1.55;
+  color: #cfcfcf;
+  margin: 0 0 3rem;
+}
+
+.platform-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.platform-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.platform-list li {
+  font-family: "Cutive Mono", monospace;
+  color: #777;
+  letter-spacing: 0.22em;
+  text-transform: lowercase;
+  font-size: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.platform-list li::before {
+  content: "— ";
+}
+
+@media (max-width: 900px) {
+  .no-stage-grid,
+  .platform-grid,
+  .platform-list {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .no-stage-section,
+  .platform-section {
+    padding: 6rem 24px;
+  }
+}
 
 /* Responsive */
 @media (max-width: 900px) {
