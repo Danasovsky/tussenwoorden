@@ -230,11 +230,11 @@ body {
 }
 
 .about-quote {
-  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-size: clamp(2rem, 2vw, 2rem);
   line-height: 1.5;
   text-align: center;
   font-style: italic;
-  margin: 6rem auto;
+  margin: 2rem auto;
   max-width: 1000px;
 }
 
@@ -243,7 +243,7 @@ body {
   line-height: 0.8;
   text-align: right;
   margin-top: -1rem;
-  margin-right: 6rem;
+  margin-right: 2rem;
   opacity: 0.9;
 }
 
