@@ -153,6 +153,12 @@ body {
   margin: 42px 0;
 }
 
+.short-dotted-line {
+  width: 180px;
+  border-top: 2px dotted #111;
+  margin: 5rem auto;
+}
+
 .about-hero {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
