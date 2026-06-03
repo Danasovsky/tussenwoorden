@@ -1030,3 +1030,33 @@ body {
     font-size: 42px;
   }
 }
+
+  @media (max-width: 900px) {
+
+  .contact-container,
+  .about-grid,
+  .platform-grid,
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form,
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .site-footer {
+    padding: 6rem 0;
+  }
+
+}
+
+  @media (max-width: 900px) {
+
+  .footer-quote {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+}
