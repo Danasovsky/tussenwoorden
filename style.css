@@ -814,6 +814,7 @@ body {
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 
+
 .footer-container {
   width: min(1400px, 90%);
   margin: 0 auto;
@@ -824,10 +825,23 @@ body {
   align-items: start;
 }
 
+  .footer-logo {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.9;
+  color: white;
+}
+
+.footer-logo span {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 .footer-brand img {
   width: 220px;
   margin-bottom: 2rem;
 }
+
 
 .footer-brand p {
   font-family: "Cutive Mono", monospace;
