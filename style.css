@@ -643,6 +643,15 @@ body {
   right:0;
 }
 
+@media (max-width: 760px) {
+  .wave-divider {
+    position: static;
+    font-size: 4.5rem;
+    transform: none;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
 @media (max-width: 900px) {
   .platform-grid,
   .platform-list {
