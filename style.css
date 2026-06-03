@@ -1,3 +1,7 @@
+
+
+/*basis*/
+
 body {
   font-family: Georgia, serif;
   margin: 0;
@@ -47,6 +51,40 @@ footer {
   }
 }
 
+/*hero*/
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 8vw, 6rem);
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* schermen-configuratie */
 /* iPad portrait + grote telefoons */
 @media (max-width: 768px) {
   header {
