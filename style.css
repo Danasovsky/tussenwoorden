@@ -776,6 +776,8 @@ body {
 .contact-button {
   display: inline-block;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
   padding: 1.1rem 2rem;
   border: 1.5px solid #000;
   background: transparent;
