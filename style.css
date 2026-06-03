@@ -357,6 +357,24 @@ body {
 .city-pink { --city-color: #e86aa7; }
 .city-purple { --city-color: #7b4de8; }
 
+/* Antwerpen foto */
+.event-card.city-pink img {
+  object-position: center 28%;
+}
+
+/* Upcoming lijst zelfde font als menu */
+.upcoming-card ul,
+.upcoming-card li,
+.upcoming-card a {
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.02em;
+}
+
+.upcoming-card li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 .upcoming-card {
   border: 2px dotted #000;
   padding: 2rem;
@@ -434,24 +452,8 @@ body {
   .programma-buttons {
     flex-direction: column;
   }
-  
-  /* Antwerpen-foto iets lager croppen zodat gezicht beter zichtbaar is */
-.event-card.city-pink img {
-  object-position: center 28%;
 }
 
-/* Aankomende lijst in typewriter/menu-font */
-.upcoming-card ul,
-.upcoming-card li,
-.upcoming-card a {
-  font-family: "Cutive Mono", monospace;
-  letter-spacing: 0.02em;
-}
-
-.upcoming-card li {
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
 }
 
 
