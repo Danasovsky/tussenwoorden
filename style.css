@@ -671,7 +671,6 @@ body {
 .contact-container {
   width: min(1400px, 90%);
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
@@ -690,7 +689,7 @@ body {
 
 .contact-intro {
   font-size: 1.8rem;
-  color: #666;
+  color: black;
   max-width: 500px;
   margin-bottom: 4rem;
 }
@@ -702,7 +701,7 @@ body {
 }
 
 .contact-links a {
-  color: #111;
+  color: black;
   text-decoration: none;
   font-size: 1.8rem;
   transition: opacity .2s ease;
@@ -716,7 +715,7 @@ body {
   font-family: "Cutive Mono", monospace;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: #999;
+  color: back;
   margin-bottom: 2rem;
 }
 
@@ -729,7 +728,7 @@ body {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .form-group {
@@ -744,7 +743,7 @@ body {
   font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: #999;
+  color: black;
 }
 
 .form-group input,
@@ -767,31 +766,25 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #111;
+  border-color: black;
 }
 
 .contact-button {
-  width: fit-content;
-
-  background: #111;
-  color: white;
-
-  border: none;
-
-  padding: 1.4rem 3rem;
-
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.1rem 2rem;
+  border: 1.5px solid #000;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
   font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.12em;
   text-transform: lowercase;
-  letter-spacing: 0.2em;
-
-  cursor: pointer;
-
-  transition: all .2s ease;
 }
 
 .contact-button:hover {
-  transform: translateY(-2px);
-}
+  background: #000;
+  
 
 @media (max-width: 900px) {
 
