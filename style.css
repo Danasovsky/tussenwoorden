@@ -582,7 +582,7 @@ body {
 
 .platform-list li {
   font-family: "Cutive Mono", monospace;
-  color: #888;
+  color: #000;
   letter-spacing: 0.18em;
   text-transform: lowercase;
   font-size: 0.95rem;
