@@ -477,6 +477,19 @@ body {
 
 
 /* Eerste keer podium */
+
+.first-time-title .short-divider {
+  width: 180px;
+  margin-bottom: 2rem;
+  border-top: 3px dotted #000;
+  opacity: 0.85;
+}
+
+.type-label {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
 .first-time-section {
   background: #fff;
   color: #000;
