@@ -420,7 +420,7 @@ body {
 .upcoming-card li::after {
   content: "";
   display: block;
-  width: 120px;
+  width: 3000px;
   height: 1px;
   background: #000;
   margin: 1rem auto 0;
