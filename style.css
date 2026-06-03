@@ -517,7 +517,7 @@ body {
 .black-button {
   display: inline-block;
   background: #000;
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-family: "Cutive Mono", monospace;
   letter-spacing: 0.16em;
@@ -528,7 +528,7 @@ body {
 
 .platform-section {
   background: #000;
-  color: #fff;
+  color: white;
   padding: 7rem 7vw;
 }
 
@@ -541,7 +541,7 @@ body {
 
 .platform-kicker {
   font-family: "Cutive Mono", monospace;
-  color: #777;
+  color: white;
   letter-spacing: 0.22em;
   text-transform: lowercase;
   margin: 0 0 2rem;
