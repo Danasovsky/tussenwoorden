@@ -705,7 +705,7 @@ body {
 .contact-links a {
   color: black;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1rem;
   transition: opacity .2s ease;
 }
 
@@ -730,7 +730,7 @@ body {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .form-group {
