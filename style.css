@@ -68,6 +68,17 @@ body {
   border-left: 1px solid rgba(0,0,0,0.12);
 }
 
+.socials img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.15);
+}
+
 .hero {
   min-height: 100vh;
   padding-top: 92px;
