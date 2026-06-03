@@ -641,7 +641,6 @@ body {
 @media (max-width: 760px) {
   .wave-divider {
     position: static;
-    font-size: 4.5rem;
     transform: none;
     margin: 2rem 0;
     text-align: center;
@@ -740,6 +739,7 @@ body {
 
 .contact-button {
   width: fit-content;
+  font-size: 1.1rem;
   margin-top: 2rem;
   padding: 1.1rem 2rem;
   border: 1.5px solid #000;
