@@ -285,8 +285,9 @@ body {
 .event-card::before {
   content: "*";
   position: absolute;
-  top: -1.4rem;
-  right: 0;
+  top: -3.8rem;
+  right: 0.2rem;
+  z-index: 2;
   font-size: 4rem;
   font-weight: 900;
   line-height: 1;
@@ -303,6 +304,8 @@ body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   margin-bottom: 0.9rem;
+  position: relative;
+  z-index: 1;
 }
 
 .event-meta span:first-child,
@@ -431,6 +434,24 @@ body {
   .programma-buttons {
     flex-direction: column;
   }
+  
+  /* Antwerpen-foto iets lager croppen zodat gezicht beter zichtbaar is */
+.event-card.city-pink img {
+  object-position: center 28%;
+}
+
+/* Aankomende lijst in typewriter/menu-font */
+.upcoming-card ul,
+.upcoming-card li,
+.upcoming-card a {
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.02em;
+}
+
+.upcoming-card li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
 }
 
 
