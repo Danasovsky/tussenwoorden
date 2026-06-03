@@ -705,7 +705,7 @@ body {
 
 .contact-links {
   font-size: 1rem;
-  style: bold;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -726,7 +726,7 @@ body {
   font-family: "Cutive Mono", monospace;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: back;
+  color: black;
   margin-bottom: 2rem;
 }
 
@@ -789,7 +789,7 @@ body {
 .contact-button:hover {
   background: #000;
   color: white;
-  
+  }
 
 @media (max-width: 900px) {
 
@@ -802,7 +802,6 @@ body {
     font-size: 3.5rem;
   }
 
-}
 
 
   /* footer*/
