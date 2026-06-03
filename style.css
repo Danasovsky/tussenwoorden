@@ -651,7 +651,153 @@ body {
 }
 
 
+/*contact*/
 
+.contact-section {
+  position: relative;
+  padding: 10rem 0;
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  background-size: 500px;
+}
+
+.contact-container {
+  width: min(1400px, 90%);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info h2 {
+  font-size: clamp(4rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  margin-bottom: 2rem;
+}
+
+.contact-intro {
+  font-size: 1.8rem;
+  color: #666;
+  max-width: 500px;
+  margin-bottom: 4rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-links a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: opacity .2s ease;
+}
+
+.contact-links a:hover {
+  opacity: .6;
+}
+
+.section-label {
+  font-family: "Cutive Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.short-dotted {
+  width: 180px;
+  border-top: 5px dotted #111;
+  margin-bottom: 3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 1rem;
+
+  font-family: "Cutive Mono", monospace;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #999;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  background: rgba(255,255,255,0.85);
+
+  border: 1px solid #cfcfcf;
+
+  padding: 1.5rem;
+
+  font-size: 1.1rem;
+
+  font-family: inherit;
+
+  transition: border-color .2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #111;
+}
+
+.contact-button {
+  width: fit-content;
+
+  background: #111;
+  color: white;
+
+  border: none;
+
+  padding: 1.4rem 3rem;
+
+  font-family: "Cutive Mono", monospace;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+
+  cursor: pointer;
+
+  transition: all .2s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .contact-info h2 {
+    font-size: 3.5rem;
+  }
+
+}
 
 
 
