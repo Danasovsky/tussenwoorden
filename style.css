@@ -688,13 +688,15 @@ body {
 }
 
 .contact-intro {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: black;
   max-width: 500px;
   margin-bottom: 4rem;
 }
 
 .contact-links {
+  font-size: 1rem;
+  style: bold;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
