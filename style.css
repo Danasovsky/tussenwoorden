@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&display=swap');
 
 
 
@@ -231,14 +231,11 @@ body {
 }
 
 .about-quote {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: clamp(1.8rem, 2.5vw, 3rem);
-  line-height: 1.7;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  line-height: 1.5;
   text-align: center;
-  max-width: 900px;
-  margin: 2rem auto;
 }
 
 .about-semicolon {
