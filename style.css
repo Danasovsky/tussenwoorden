@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -43,7 +46,14 @@ body {
   align-items: center;
 }
 
-.main-nav a,
+.main-nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Cutive mono", monospace;
+  letter-spacing: 0.02em;
+}
+
 .socials a {
   color: #000;
   text-decoration: none;
@@ -74,8 +84,8 @@ body {
 }
 
 .hero-logo {
-  width: min(48vw, 700px);
-  max-width: 82%;
+  width: min(60vw, 900px);
+  max-width: 90%;
   animation: softBounce 4s ease-in-out infinite;
 }
 
