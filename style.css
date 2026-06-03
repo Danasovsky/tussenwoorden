@@ -740,7 +740,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding-bottom: 120px;
 }
+
 
 .form-group {
   display: flex;
@@ -1051,6 +1053,26 @@ body {
   .footer-quote {
     font-size: 3rem;
     margin-bottom: 3rem;
+  }
+
+}
+
+  @media (max-width: 760px) {
+
+  .first-time-section {
+  padding-bottom: 60px;
+  }
+
+     .faq-button {
+  margin-bottom: 0;
+  }
+
+      .platform-section {
+padding-top: 20px;
+  }
+
+     .contact-form {
+padding-bottom: 160px;
   }
 
 }
