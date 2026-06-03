@@ -1035,3 +1035,93 @@ body {
     padding: 20px 36px;
   }
 }
+
+/* FINAL FIXES */
+
+/* laptop platform fix */
+.platform-grid,
+.platform-content,
+.platform-section h2 {
+  min-width: 0;
+}
+
+.platform-section {
+  overflow-x: hidden;
+}
+
+.platform-section h2 {
+  max-width: 760px;
+}
+
+/* mobile menu fix */
+@media (max-width: 760px) {
+  .site-header {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: auto !important;
+    padding: 20px !important;
+    gap: 16px !important;
+  }
+
+  .site-logo {
+    text-align: center;
+  }
+
+  .main-nav {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 12px 18px !important;
+  }
+
+  .main-nav a {
+    font-size: 0.9rem !important;
+  }
+
+  .socials {
+    display: none !important;
+  }
+}
+
+/* mobile hero: logo en knop onder elkaar */
+@media (max-width: 760px) {
+  .hero {
+    min-height: 100vh;
+    padding-top: 40px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3rem !important;
+  }
+
+  .hero-logo {
+    width: 78vw !important;
+    max-width: 360px !important;
+  }
+
+  .signup-button {
+    position: static !important;
+    display: inline-flex !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 18px 32px !important;
+    font-size: 1.3rem !important;
+    border-radius: 8px !important;
+  }
+}
+
+/* mobile platform golven */
+@media (max-width: 760px) {
+  .wave-divider {
+    position: static !important;
+    transform: none !important;
+    font-size: 3.5rem !important;
+    margin: 2rem 0 !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+  }
+}
