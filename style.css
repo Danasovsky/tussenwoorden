@@ -71,14 +71,14 @@ body {
 }
 
 .socials img {
-  height: calc(var(--header-height) * 0.22);
+  height: 2.2rem;
   width: auto;
   display: block;
   transition: transform 0.25s ease;
 }
 
 .socials img:hover {
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .hero {
