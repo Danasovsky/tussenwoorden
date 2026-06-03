@@ -476,7 +476,7 @@ body {
 .first-time-section {
   background: #fff;
   color: #000;
-  padding: 7rem 7vw;
+  padding: 120px 7vw;
 }
 
 .first-time-grid {
@@ -491,7 +491,7 @@ body {
   font-size: 0.9rem;
   letter-spacing: 0.22em;
   text-transform: lowercase;
-  color: #999;
+  color: black;
   margin-bottom: 2rem;
 }
 
