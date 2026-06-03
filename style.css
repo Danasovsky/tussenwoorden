@@ -156,7 +156,8 @@ body {
 
 .short-dotted-line {
   width: 180px;
-  border-top: 2px dotted #111;
+  border-top: 3px dotted #000;
+  opacity: 0.85;
   margin: 2rem 0 4rem 0;
 }
 
