@@ -859,3 +859,72 @@ body {
 
 }
 
+/* mobile overflow fix */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 760px) {
+  .about-section,
+  .first-time-section,
+  .platform-section,
+  .contact-section,
+  .site-footer {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .about-grid,
+  .platform-grid,
+  .contact-container,
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .about-text,
+  .platform-content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-text p,
+  .first-time-section .about-text p,
+  .platform-content > p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .about-semicolon {
+    position: static;
+    text-align: left;
+    margin: 2rem 0;
+    font-size: 5rem;
+  }
+
+  .big-smile {
+    position: static;
+    font-size: 5rem;
+    margin-top: 2rem;
+  }
+
+  .faq-button {
+    max-width: 100%;
+    width: fit-content;
+  }
+
+  .wave-divider {
+    position: static !important;
+    transform: none !important;
+    font-size: 3.8rem;
+    line-height: 1;
+    margin: 2rem 0;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
