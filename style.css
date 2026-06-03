@@ -801,7 +801,7 @@ body {
   .contact-info h2 {
     font-size: 3.5rem;
   }
-   }
+}
 
 
 
@@ -888,10 +888,7 @@ body {
   .footer-quote {
     font-size: 3rem;
   }
-
 }
-
-
 
 
 /* Responsive */
