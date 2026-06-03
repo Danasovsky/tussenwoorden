@@ -969,3 +969,56 @@ body {
   }
 }
 
+
+
+/* hero logo + zachte beweging fix */
+.hero-logo {
+  width: min(68vw, 900px);
+  max-width: 90%;
+  animation: softBounce 4s ease-in-out infinite !important;
+  transform-origin: center;
+}
+
+@keyframes softBounce {
+  0%, 100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(-1deg);
+  }
+}
+
+/* mobile hero beter */
+@media (max-width: 760px) {
+  .hero {
+    min-height: 100vh;
+    padding-top: 120px;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .hero-logo {
+    width: 62vw;
+    max-width: 400px;
+    animation: softBounce 4s ease-in-out infinite !important;
+  }
+
+  .signup-button {
+    position: static;
+    margin-top: 2rem;
+    padding: 22px 42px;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 760px) {
+  .main-nav {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .main-nav a {
+    font-size: 0.9rem;
+  }
+}
