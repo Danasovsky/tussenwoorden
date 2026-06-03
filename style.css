@@ -601,6 +601,7 @@ body {
   line-height: 1.8;
   color: black;
   margin: 0 0 3rem;
+  position: relative; 
 }
 
 .platform-list {
@@ -637,6 +638,9 @@ body {
   color: black;
   margin-bottom: 2rem;
   transform: translateY(-120px);
+  position: absolute;
+  top:-80px; 
+  right:0;
 }
 
 @media (max-width: 900px) {
