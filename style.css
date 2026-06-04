@@ -601,6 +601,12 @@ body {
   position: relative;
 }
 
+.ontwikkel-content {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
 .platform-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
