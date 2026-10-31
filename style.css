@@ -1133,6 +1133,7 @@ body {
 }
 
 .footer-logos .logos-image {
+  margin-top: -40px;
   display: block;
   width: 100%;
   max-width: 100%;
