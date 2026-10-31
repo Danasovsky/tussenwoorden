@@ -1133,12 +1133,12 @@ body {
 }
 
 .footer-logos .logos-image {
-  margin-top: 20px;
   display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
-  margin: 0;
+  margin: 120px auto 0;
+  padding: 0 20px 40px;
 }
 
 .footer-logos-label {
