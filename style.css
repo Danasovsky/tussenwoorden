@@ -1132,13 +1132,20 @@ body {
   }
 }
 
-.logos-section {
-  padding: 60px 20px;
+.footer-logos {
+  max-width: 1200px;
+  margin: 80px auto 0;
+  padding: 50px 20px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   text-align: center;
 }
 
-.logos-section .section-label {
-  margin-bottom: 24px;
+.footer-logos-label {
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .logos-image {
