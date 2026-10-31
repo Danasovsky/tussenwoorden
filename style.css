@@ -1132,11 +1132,12 @@ body {
   }
 }
 
-.footer-logos {
-  max-width: 940px;
-  margin: 80px auto 0;
-  padding: 0 20px 40px;
-  text-align: left;
+.footer-logos .logos-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 .footer-logos-label {
@@ -1146,3 +1147,5 @@ body {
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
+
+
